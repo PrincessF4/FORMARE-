@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FORMARE — Home</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+<div class="container top">
+<div style="display:flex;align-items:center;gap:18px">
+<div class="logo" onclick="location.href='index.html'">
+<div class="mark">FOR</div>
+<div><strong>FORMARE</strong></div>
+</div>
+<nav class="main-nav" aria-label="Main navigation">
+<a href="about.html">About us</a>
+<a href="partners.html">Partner Brands</a>
+<a href="subscriptions.html">Subscriptions</a>
+<a href="contact.html">Contact us</a>
+<a href="privacy.html">Privacy</a>
+</nav>
+</div>
+
+<div class="actions">
+<button id="searchToggle" class="btn btn-accent">Find Your Fit</button>
+<button class="icon-btn" title="Cart">🛒</button>
+</div>
+</div>
+
+<div id="searchArea" class="search-area" style="display:none">
+<div class="container search-wrap">
+<div class="search-icon">🔍</div>
+<input class="search-input" placeholder="Search for custom fit clothing from your favourite brands...">
+</div>
+</div>
+</header>
+
+<main>
+<section class="container hero">
+<div class="hero-left">
+<h1>Custom fit fashion for real bodies</h1>
+<p class="lead">FORMARE combines AI & 3D scanning with premium fashion brands so you can buy clothing that truly fits.</p>
+<div style="display:flex;gap:12px;flex-wrap:wrap">
+<a class="cta" href="partners.html">Shop Partner Brands</a>
+<a class="cta" href="subscriptions.html" style="background:#111">Subscribe</a>
+</div>
+
+<div class="features" style="margin-top:28px">
+<div class="feature">
+<strong>Accurate fit</strong>
+<p style="margin-top:8px;color:#666">3D body scan & tailored recommendations</p>
+</div>
+<div class="feature">
+<strong>Thousands of styles</strong>
+<p style="margin-top:8px;color:#666">Choose from partnered global brands</p>
+</div>
+<div class="feature">
+<strong>Sustainable</strong>
+<p style="margin-top:8px;color:#666">Less returns, better fit, less waste</p>
+</div>
+</div>
+</div>
+
+<div class="hero-right">
+<!-- placeholder hero image -->
+<div style="background:#f5f5f5;border-radius:10px;padding:40px;min-height:260px;display:flex;align-items:center;justify-content:center">
+<div style="color:#bbb">Hero image / mock</div>
+</div>
+</div>
+</section>
+
+<section class="container" style="padding:40px 0 20px">
+<h2 style="margin-bottom:14px">How it works</h2>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+<div class="feature"><strong>1. Pick brand</strong><p style="color:#666">Browse styles from partnered brands.</p></div>
+<div class="feature"><strong>2. Scan</strong><p style="color:#666">Use our scan tools to capture measurements.</p></div>
+<div class="feature"><strong>3. Customize</strong><p style="color:#666">Select fit options before purchase.</p></div>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+<div class="container footer-columns">
+<div>
+<h3 style="color:#fff">FORMARE</h3>
+<p style="color:#bbb">High fashion technology for real bodies.</p>
+</div>
+<div>
+<h4 style="color:#fff">Quick Links</h4>
+<a href="about.html">About Us</a><br>
+<a href="partners.html">Partner Brands</a><br>
+<a href="subscriptions.html">Subscriptions</a>
+</div>
+<div>
+<h4 style="color:#fff">Legal</h4>
+<a href="privacy.html">Privacy Policy</a><br>
+</div>
+<div>
+<h4 style="color:#fff">Contact</h4>
+<div style="color:#bbb">hello@formare.com</div>
+</div>
+</div>
+<div class="footer-bottom">© 2025 FORMARE. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

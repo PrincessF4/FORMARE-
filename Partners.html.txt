@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Partner Brands — FORMARE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+<div class="container top">
+<div style="display:flex;align-items:center;gap:18px">
+<div class="logo" onclick="location.href='index.html'"><div class="mark">FOR</div><div><strong>FORMARE</strong></div></div>
+<nav class="main-nav"><a href="about.html">About us</a><a href="partners.html">Partner Brands</a><a href="subscriptions.html">Subscriptions</a><a href="contact.html">Contact us</a><a href="privacy.html">Privacy</a></nav>
+</div>
+<div class="actions"><button id="searchToggle" class="btn btn-accent">Find Your Fit</button></div>
+</div>
+</header>
+
+<main class="container" style="padding:56px 0">
+<p class="lead">Select the store you would like to purchase from and browse for your items</p>
+
+<div class="brand-grid" style="margin:18px 0 36px">
+<!-- Each brand is clickable and opens partner URL in a new tab -->
+<a class="brand-card" href="https://www.zara.com" target="_blank" rel="noopener noreferrer">
+<div class="brand-logo" style="font-size:28px">ZARA</div>
+</a>
+
+<a class="brand-card" href="https://www.fashionnova.com" target="_blank" rel="noopener noreferrer">
+<div class="brand-logo" style="font-size:20px">FASHION<br>NOVA</div>
+</a>
+
+<a class="brand-card" href="https://www.hm.com" target="_blank" rel="noopener noreferrer">
+<div class="brand-logo" style="color:#d6342a;font-size:26px">H&amp;M</div>
+</a>
+
+<a class="brand-card" href="https://www.next.co.uk" target="_blank" rel="noopener noreferrer">
+<div class="brand-logo">NEXT</div>
+</a>
+
+<a class="brand-card" href="https://www.prettylittlething.com" target="_blank" rel="noopener noreferrer">
+<div class="brand-logo" style="font-style:italic;background:#8B4513;color:#fff;padding:8px 16px;border-radius:8px">PrettyLittleThing</div>
+</a>
+
+<a class="brand-card" href="https://www.uniqlo.com" target="_blank" rel="noopener noreferrer">
+<div class="brand-logo" style="border:2px solid #111;padding:8px 16px">UNIQLO</div>
+</a>
+
+<a class="brand-card" href="https://www.asos.com" target="_blank" rel="noopener noreferrer">
+<div class="brand-logo" style="background:#111;color:#fff;padding:8px 14px;border-radius:999px">ASOS</div>
+</a>
+
+<a class="brand-card" href="https://www.bershka.com" target="_blank" rel="noopener noreferrer">
+<div class="brand-logo">BERSHKA</div>
+</a>
+
+<a class="brand-card" href="https://www.boohoo.com" target="_blank" rel="noopener noreferrer">
+<div class="brand-logo" style="background:#ff9fc3;color:#fff;padding:8px 14px;border-radius:8px">boohoo</div>
+</a>
+</div>
+
+<h2 style="margin-top:32px">How to customise your fit:</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:12px">
+<div class="form-card">
+<h3>Select your desired item</h3>
+<div style="display:flex;gap:12px;margin-top:12px">
+<div style="width:120px;height:160px;background:#eee;border-radius:8px;overflow:hidden"></div>
+<div style="flex:1">
+<p style="margin:0 0 8px">Size Chart</p>
+<div style="font-size:13px;color:#666">XS / S / M / L<br>28 / 30 / 32 / 34</div>
+</div>
+</div>
+</div>
+
+<div class="form-card">
+<h3>Go to basket and click 'Scan Now' to customise the fit</h3>
+<div style="height:120px;display:flex;align-items:center;justify-content:center;background:#f7f7f7;border-radius:8px;margin-top:12px">Basket interface</div>
+</div>
+
+<div class="form-card">
+<h3>Press purchase and the order will be processed</h3>
+<div style="height:120px;display:flex;align-items:center;justify-content:center;background:#f7f7f7;border-radius:8px;margin-top:12px">Order confirmation</div>
+</div>
+</div>
+</main>
+
+<footer class="footer">
+<div class="container footer-columns">
+<div><h3 style="color:#fff">FORMARE</h3><p style="color:#bbb">High fashion technology for real bodies.</p></div>
+<div><h4 style="color:#fff">Quick Links</h4><a href="index.html">Home</a></div>
+<div><h4 style="color:#fff">Legal</h4><a href="privacy.html">Privacy Policy</a></div>
+<div><h4 style="color:#fff">Contact</h4><div style="color:#bbb">hello@formare.com</div></div>
+</div>
+<div class="footer-bottom">© 2025 FORMARE. All rights reserved.</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<section class="hero">
+<div class="container">
+<h1 class="main-heading">Styles that are designed for real bodies</h1>
+
+<div class="grid">
+<!-- How It Works -->
+<div>
+<h2 class="sub-heading">How It Works</h2>
+<div class="steps">
+<div class="step"><span>1.</span><p>Choose</p></div>
+<div class="step"><span>2.</span><p>Scan</p></div>
+<div class="step"><span>3.</span><p>Customise</p></div>
+</div>
+</div>
+
+<!-- Images -->
+<div class="image-grid">
+<div class="img-box black">
+<img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc" alt="3D Body Scanning" />
+</div>
+<div class="img-box gray">
+<img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64" alt="Wardrobe" />
+</div>
+</div>
+</div>
+
+<!-- Partner Brands -->
+<div class="brands">
+<div>ZARA</div>
+<div class="uniqlo">UNIQLO</div>
+<div>RESERVED</div>
+<div class="large">#M</div>
+<div class="pink">boohoo</div>
+<div class="asos">asos</div>
+<div class="large">NEXT</div>
+<div>BERSHKA</div>
+</div>
+
+<!-- Description -->
+<div class="description">
+<p class="italic-text">
+Experience the future of personalised fashion from your favourite stores. Our AI analyses your style and body shape. TRY NOW
+</p>
+<a href="#" class="cta-btn">A FIT THAT FITS</a>
+</div>
+</div>
+</section>

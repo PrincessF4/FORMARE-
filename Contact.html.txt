@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact Us — FORMARE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+<div class="container top">
+<div style="display:flex;align-items:center;gap:18px">
+<div class="logo" onclick="location.href='index.html'"><div class="mark">FOR</div><div><strong>FORMARE</strong></div></div>
+<nav class="main-nav"><a href="about.html">About us</a><a href="partners.html">Partner Brands</a><a href="subscriptions.html">Subscriptions</a><a href="contact.html">Contact us</a><a href="privacy.html">Privacy</a></nav>
+</div>
+<div class="actions"><button id="searchToggle" class="btn btn-accent">Find Your Fit</button></div>
+</div>
+</header>
+
+<main class="container" style="padding:56px 0">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start">
+<div>
+<div style="background:#111;color:#fff;padding:20px;border-radius:6px;margin-bottom:18px">
+<h3 style="margin:0">To Get In Touch With Us Now</h3>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:18px">
+<div style="display:flex;gap:12px;align-items:center">
+<div style="width:54px;height:54;display:flex;align-items:center;justify-content:center">📞</div>
+<div style="border-left:4px solid #111;padding-left:12px"><h4 style="margin:0">Phone Number</h4></div>
+</div>
+
+<div style="display:flex;gap:12px;align-items:center">
+<div style="width:54px;height:54;display:flex;align-items:center;justify-content:center">✉️</div>
+<div style="border-left:4px solid #111;padding-left:12px"><h4 style="margin:0">Email</h4></div>
+</div>
+
+<div style="display:flex;gap:12px;align-items:center">
+<div style="width:54px;height:54;display:flex;align-items:center;justify-content:center">⏰</div>
+<div style="border-left:4px solid #111;padding-left:12px"><h4 style="margin:0">Working Hours</h4></div>
+</div>
+</div>
+</div>
+
+<div>
+<div style="background:#111;color:#fff;padding:20px;border-radius:6px;margin-bottom:18px">
+<h3 style="margin:0">Contact Us</h3>
+</div>
+
+<form id="contactForm" class="form-card" aria-label="Contact form">
+<label class="label">Full name *</label>
+<input class="input" type="text" id="fullName" required>
+
+<div class="form-row" style="margin-top:12px">
+<div><label class="label">Email ID *</label><input class="input" type="email" id="email" required></div>
+<div><label class="label">Mobile Number *</label><input class="input" type="tel" id="mobile" required></div>
+</div>
+
+<div style="margin-top:12px"><label class="label">Message</label><textarea id="message" class="input"></textarea></div>
+
+<div style="margin-top:12px">
+<label style="display:flex;gap:8px;align-items:flex-start">
+<input id="privacyConsent" type="checkbox" style="margin-top:6px">
+<span style="font-size:14px">I consent to FORMARE collecting and processing my personal data (name, email, phone) for the purpose of responding to my inquiry. Data will be stored for 6 months. <a href="privacy.html" style="color:var(--accent)">View Privacy Policy</a></span>
+</label>
+</div>
+
+<div style="margin-top:12px;background:#f7f7f7;padding:12px;border-radius:8px">
+<small style="color:#666">Your data rights: You can request access to, correction of, or deletion of your data at any time by contacting privacy@formare.com.</small>
+</div>
+
+<div class="form-actions">
+<button type="submit" class="btn" style="border:2px solid #111;background:#fff;padding:12px 24px;border-radius:999px;font-weight:700">
+<span style="color:var(--accent);margin-right:8px">▶</span> SUBMIT
+</button>
+</div>
+</form>
+
+<div style="display:flex;justify-content:flex-end;margin-top:10px">
+<div style="border:2px solid #111;padding:8px 12px;border-radius:999px;display:flex;align-items:center;gap:8px">
+Chat with us live now <span>💬</span>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+<footer class="footer">
+<div class="container footer-columns">
+<div><h3 style="color:#fff">FORMARE</h3><p style="color:#bbb">High fashion technology for real bodies.</p></div>
+<div><h4 style="color:#fff">Quick Links</h4><a href="partners.html">Partner Brands</a></div>
+<div><h4 style="color:#fff">Legal</h4><a href="privacy.html">Privacy Policy</a></div>
+<div><h4 style="color:#fff">Contact</h4><div style="color:#bbb">hello@formare.com</div></div>
+</div>
+<div class="footer-bottom">© 2025 FORMARE. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
